@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+coverage/
+.next/
+apps/*/node_modules/
+apps/*/.next/

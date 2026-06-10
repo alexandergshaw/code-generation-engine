@@ -1,0 +1,27 @@
+{
+  "name": "code-generation-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "playground:dev": "npm run dev -w apps/playground",
+    "playground:lint": "npm run lint -w apps/playground",
+    "playground:build": "npm run build -w apps/playground"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandergshaw/code-generation-engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alexandergshaw/code-generation-engine/issues"
+  },
+  "homepage": "https://github.com/alexandergshaw/code-generation-engine#readme",
+  "private": "true",
+  "workspaces": [
+    "apps/*"
+  ]
+}
