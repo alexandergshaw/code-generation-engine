@@ -20,7 +20,7 @@
     "url": "https://github.com/alexandergshaw/code-generation-engine/issues"
   },
   "homepage": "https://github.com/alexandergshaw/code-generation-engine#readme",
-  "private": "true",
+  "private": true,
   "workspaces": [
     "apps/*"
   ]
